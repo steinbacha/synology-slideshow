@@ -1,4 +1,9 @@
 {
+  "name": "synology-slideshow",
+  "version": "1.0.0",
+  "description": "http slideshow from synology albums",
+  "main": "main.js",
+  "author": "Adam Steinbach",
   "dependencies": {
     "adm-zip": "^0.5.14",
     "axios": "^1.7.2",
@@ -9,5 +14,10 @@
     "nodemon": "^3.1.4",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "jest"
   }
 }
